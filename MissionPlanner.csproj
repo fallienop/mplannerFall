@@ -3366,6 +3366,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFailSafe.ja-JP.resx">
       <DependentUpon>ConfigFailSafe.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFailSafe.ko-KR.resx">
       <DependentUpon>ConfigFailSafe.cs</DependentUpon>

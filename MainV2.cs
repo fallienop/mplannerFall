@@ -1142,9 +1142,9 @@ namespace MissionPlanner
                 this.Icon = Icon.FromHandle(((Bitmap) Program.IconFile).GetHicon());
             }
 
-            MenuArduPilot.Image = new Bitmap(Properties.Resources._0d92fed790a3a70170e61a86db103f399a595c70,
-                (int) (200), 31);
-            MenuArduPilot.Width = MenuArduPilot.Image.Width;
+            //MenuArduPilot.Image = new Bitmap(Properties.Resources._0d92fed790a3a70170e61a86db103f399a595c70,
+            //    (int) (200), 31);
+            //MenuArduPilot.Width = MenuArduPilot.Image.Width;
 
             if (Program.Logo2 != null)
                 MenuArduPilot.Image = Program.Logo2;
@@ -1227,26 +1227,26 @@ namespace MissionPlanner
 
             displayicons = icons;
 
-            MainMenu.BackColor = SystemColors.MenuBar;
+            //MainMenu.BackColor = SystemColors.MenuBar;
 
-            MainMenu.BackgroundImage = displayicons.bg;
+            //MainMenu.BackgroundImage = displayicons.bg;
 
-            MenuFlightData.Image = displayicons.fd;
-            MenuFlightPlanner.Image = displayicons.fp;
-            MenuInitConfig.Image = displayicons.initsetup;
-            MenuSimulation.Image = displayicons.sim;
-            MenuConfigTune.Image = displayicons.config_tuning;
-            MenuConnect.Image = displayicons.connect;
-            MenuHelp.Image = displayicons.help;
+            //MenuFlightData.Image = displayicons.fd;
+            //MenuFlightPlanner.Image = displayicons.fp;
+            //MenuInitConfig.Image = displayicons.initsetup;
+            //MenuSimulation.Image = displayicons.sim;
+            //MenuConfigTune.Image = displayicons.config_tuning;
+            //MenuConnect.Image = displayicons.connect;
+            //MenuHelp.Image = displayicons.help;
 
 
-            MenuFlightData.ForeColor = ThemeManager.TextColor;
-            MenuFlightPlanner.ForeColor = ThemeManager.TextColor;
-            MenuInitConfig.ForeColor = ThemeManager.TextColor;
-            MenuSimulation.ForeColor = ThemeManager.TextColor;
-            MenuConfigTune.ForeColor = ThemeManager.TextColor;
-            MenuConnect.ForeColor = ThemeManager.TextColor;
-            MenuHelp.ForeColor = ThemeManager.TextColor;
+            //MenuFlightData.ForeColor = ThemeManager.TextColor;
+            //MenuFlightPlanner.ForeColor = ThemeManager.TextColor;
+            //MenuInitConfig.ForeColor = ThemeManager.TextColor;
+            //MenuSimulation.ForeColor = ThemeManager.TextColor;
+            //MenuConfigTune.ForeColor = ThemeManager.TextColor;
+            //MenuConnect.ForeColor = ThemeManager.TextColor;
+            //MenuHelp.ForeColor = ThemeManager.TextColor;
         }
 
         void adsb_UpdatePlanePosition(object sender, MissionPlanner.Utilities.adsb.PointLatLngAltHdg adsb)
@@ -4722,21 +4722,21 @@ namespace MissionPlanner
             {
                 if (e.ClickedItem == item)
                 {
-                    item.BackColor = ThemeManager.ControlBGColor;
+                    item.BackColor = Color.DarkCyan;
                 }
                 else
                 {
                     try
                     {
-                        item.BackColor = Color.Transparent;
-                        item.BackgroundImage = displayicons.bg; //.BackColor = Color.Black;
+                        item.BackColor = Color.Blue;
+                        //item.BackgroundImage = displayicons.bg; //.BackColor = Color.Black;
                     }
                     catch
                     {
                     }
                 }
             }
-            //MainMenu.BackColor = Color.Black;
+            MainMenu.BackColor = Color.Blue;
             //MainMenu.BackgroundImage = MissionPlanner.Properties.Resources.bgdark;
         }
 
@@ -4913,6 +4913,11 @@ namespace MissionPlanner
                     break;
                 }
             }
+        }
+
+        private void toolStripConnectionControl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

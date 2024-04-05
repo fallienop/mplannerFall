@@ -19,7 +19,7 @@ namespace MissionPlanner.Controls {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class HUDT {
@@ -91,7 +91,7 @@ namespace MissionPlanner.Controls {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ARMED.
+        ///   Looks up a localized string similar to HAZIR.
         /// </summary>
         public static string ARMED {
             get {
@@ -109,7 +109,7 @@ namespace MissionPlanner.Controls {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bat .
+        ///   Looks up a localized string similar to Bat.
         /// </summary>
         public static string Bat {
             get {
@@ -187,7 +187,7 @@ namespace MissionPlanner.Controls {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DISARMED.
+        ///   Looks up a localized string similar to HAZIR DEYİL.
         /// </summary>
         public static string DISARMED {
             get {
@@ -373,7 +373,7 @@ namespace MissionPlanner.Controls {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Not Ready to Arm.
+        ///   Looks up a localized string similar to Uçuşa hazır deyil.
         /// </summary>
         public static string NotReadyToArm {
             get {

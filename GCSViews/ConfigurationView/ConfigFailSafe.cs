@@ -130,7 +130,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             else if (lbl_armed.Text == "False")
             {
-                lbl_armed.Text = "Disarmed";
+                lbl_armed.Text = "Disarmedd";
             }
             lbl_armed.ResumeLayout();
         }
